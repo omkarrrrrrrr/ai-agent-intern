@@ -1,0 +1,10 @@
+flask
+requests
+trafilatura
+PyPDF2
+python-dotenv
+transformers
+torch
+sentencepiece
+sumy
+nltk

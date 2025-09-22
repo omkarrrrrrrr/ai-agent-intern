@@ -1,0 +1,92 @@
+/* Global styles */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #0f172a; /* dark navy */
+  color: #e2e8f0; /* light gray text */
+  margin: 0;
+  padding: 20px;
+}
+
+/* Header */
+h1, h2, h3 {
+  color: #f8fafc; /* almost white */
+}
+
+/* Form */
+form {
+  margin: 20px 0;
+}
+
+input[type="text"] {
+  padding: 10px;
+  width: 400px;
+  border-radius: 6px;
+  border: 1px solid #334155;
+  background: #1e293b;
+  color: #f1f5f9;
+}
+
+button {
+  padding: 10px 15px;
+  background: #22c55e; /* green */
+  border: none;
+  border-radius: 6px;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #16a34a;
+}
+
+/* Links */
+a {
+  color: #38bdf8; /* cyan */
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* History list */
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  margin: 8px 0;
+}
+
+/* Flash messages (if used) */
+.flash {
+  padding: 10px;
+  border-radius: 6px;
+  margin: 10px 0;
+}
+
+.flash-success {
+  background: #14532d;
+  color: #bbf7d0;
+}
+
+.flash-error {
+  background: #7f1d1d;
+  color: #fecaca;
+}
+
+.flash-warning {
+  background: #78350f;
+  color: #fde68a;
+}
+
+/* Report page */
+pre, .summary-box {
+  background: #1e293b;
+  padding: 15px;
+  border-radius: 8px;
+  white-space: pre-wrap;
+  color: #e2e8f0;
+}
